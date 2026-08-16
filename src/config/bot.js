@@ -567,27 +567,6 @@ export function getBotOwners() {
 export function isBotOwner(userId) {
   if (!userId) {
     return false;
-  }
-
- birthday: "birthday",
-  community: "community",
-  economy: "economy",
-  fun: "fun",
-  giveaway: "giveaways",
-  jointocreate: "joinToCreate",
-  leveling: "leveling",
-  logging: "logging",
-  moderation: "moderation",
-  music: "music",
-  reaction_roles: "reactionRoles",
-  search: "search",
-  serverstats: "counter",
-  ticket: "tickets",
-  tools: "tools",
-  utility: "utility",
-  verification: "verification",
-  welcome: "welcome",
-};
 
 return getBotOwners().includes(String(userId));
 }
@@ -669,3 +648,23 @@ export function getRandomColor() {
 }
 
 export default botConfig;
+
+birthday: "birthday",
+  community: "community",
+  economy: "economy",
+  fun: "fun",
+  giveaway: "giveaways",
+  jointocreate: "joinToCreate",
+  leveling: "leveling",
+  logging: "logging",
+  moderation: "moderation",
+  music: "music",
+  reaction_roles: "reactionRoles",
+  search: "search",
+  serverstats: "counter",
+  ticket: "tickets",
+  tools: "tools",
+  utility: "utility",
+  verification: "verification",
+  welcome: "welcome",
+};
