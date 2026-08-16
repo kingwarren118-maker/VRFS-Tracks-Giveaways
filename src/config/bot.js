@@ -569,7 +569,27 @@ export function isBotOwner(userId) {
     return false;
   }
 
-  return getBotOwners().includes(String(userId));
+ birthday: "birthday",
+  community: "community",
+  economy: "economy",
+  fun: "fun",
+  giveaway: "giveaways",
+  jointocreate: "joinToCreate",
+  leveling: "leveling",
+  logging: "logging",
+  moderation: "moderation",
+  music: "music",
+  reaction_roles: "reactionRoles",
+  search: "search",
+  serverstats: "counter",
+  ticket: "tickets",
+  tools: "tools",
+  utility: "utility",
+  verification: "verification",
+  welcome: "welcome",
+};
+
+return getBotOwners().includes(String(userId));
 }
 
 export function isMaintenanceMode() {
