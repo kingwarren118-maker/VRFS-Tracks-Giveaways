@@ -647,23 +647,8 @@ export function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
-export default botConfig;
 birthday: "birthday",
   community: "community",
   economy: "economy",
   fun: "fun",
   giveaway: "giveaways",
-  jointocreate: "joinToCreate",
-  leveling: "leveling",
-  logging: "logging",
-  moderation: "moderation",
-  music: "music",
-  reaction_roles: "reactionRoles",
-  search: "search",
-  serverstats: "counter",
-  ticket: "tickets",
-  tools: "tools",
-  utility: "utility",
-  verification: "verification",
-  welcome: "welcome",
-};
