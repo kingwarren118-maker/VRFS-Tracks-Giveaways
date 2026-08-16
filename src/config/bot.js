@@ -648,7 +648,6 @@ export function getRandomColor() {
 }
 
 export default botConfig;
-
 birthday: "birthday",
   community: "community",
   economy: "economy",
